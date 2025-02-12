@@ -1,6 +1,7 @@
 import { Fragment } from "react/jsx-runtime"
 import NavbarComponent from "../components/navbar"
 import { Aside } from "../components/aside"
+import RightContent from "../components/rightContent"
 export default function HomePage () {
   return (
     <Fragment>
@@ -10,6 +11,7 @@ export default function HomePage () {
         <div className="">
         </div>
       </main>
+      <RightContent />
     </Fragment>
   )
 }

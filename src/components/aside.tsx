@@ -1,5 +1,5 @@
 import { Component } from "react";
-
+import SuggestionFriends from "../fragments/suggestionFriends.tsx";
 import UserProfile from "../fragments/profile.tsx";
 import Features from "../fragments/features.tsx";
 export class Aside extends Component {
@@ -12,6 +12,7 @@ export class Aside extends Component {
       
       <UserProfile></UserProfile>
       <Features></Features>
+      <SuggestionFriends></SuggestionFriends>
     </aside>
     )
   }

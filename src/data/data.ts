@@ -54,4 +54,23 @@ export const CategoryPost: Required<Kategori[]> = [
     img: '/images/psychiatra.jpg',
     title: 'psychology'
   },
+];
+
+interface FriendsList {
+  img: string,
+  name: string,
+  status: string
+};
+
+export const Friends: Required<FriendsList[]> = [
+  {
+    img: '/images/image.jpg',
+    name: 'Alexandro',
+    status: 'online'
+  },
+  {
+    img: '/images/image.jpg',
+    name: 'Alexandro',
+    status: 'offline'
+  },
 ]
