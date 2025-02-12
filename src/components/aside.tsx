@@ -1,0 +1,18 @@
+import { Component } from "react";
+
+import UserProfile from "../fragments/profile.tsx";
+import Features from "../fragments/features.tsx";
+export class Aside extends Component {
+  constructor(props:any) {
+    super(props)
+  }
+  render() {
+    return (
+      <aside className="fixed w-3/12 left-0 h-screen bg-white  px-3 py-4 hover:overflow-scroll">
+      
+      <UserProfile></UserProfile>
+      <Features></Features>
+    </aside>
+    )
+  }
+}
