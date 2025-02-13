@@ -73,4 +73,9 @@ export const Friends: Required<FriendsList[]> = [
     name: 'Alexandro',
     status: 'offline'
   },
+  {
+    img: '/images/image.jpg',
+    name: 'Alexandro',
+    status: 'offline'
+  },
 ]

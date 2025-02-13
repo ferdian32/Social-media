@@ -7,7 +7,7 @@ const SuggestionFriends = () => {
           <Link to={''} className="text-sky-500 text-sm capitalize">See all</Link>
       </div>
       <div className="flex justify-between">
-        
+        <h1>Hello</h1>
       </div>
     </section>
   )
