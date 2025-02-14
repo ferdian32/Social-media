@@ -8,7 +8,7 @@ export class Aside extends Component {
   }
   render() {
     return (
-      <aside className="fixed w-3/12 left-0 h-screen bg-white  px-3 py-4 hover:overflow-scroll">
+      <aside className="fixed w-[19%] left-0 h-screen bg-white  px-3 py-4 hover:overflow-scroll">
       
       <UserProfile></UserProfile>
       <Features></Features>

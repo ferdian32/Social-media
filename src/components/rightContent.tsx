@@ -6,7 +6,7 @@ class RightContent extends Component {
   };
   render() {
     return (
-      <section className="fixed right-0 bg-slate-50 w-3/12 h-screen px-3 py-5">
+      <section className="fixed right-0 bg-slate-50 w-[19%] h-screen px-3 py-5">
         <h1 className="font-semibold">Friends List</h1>
         <div className=" mt-4">
           {Friends?.length > 0 ? (
