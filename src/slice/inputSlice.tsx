@@ -9,7 +9,6 @@ const initialState: InputState = {
   value: "",
 };
 
-// Buat Redux Slice
 const inputSlice = createSlice({
   name: "input",
   initialState,
@@ -20,6 +19,6 @@ const inputSlice = createSlice({
   },
 });
 
-// Export actions dan reducer
+
 export const { onChangeEventHandler } = inputSlice.actions;
 export default inputSlice.reducer;
